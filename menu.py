@@ -5,6 +5,7 @@ from onfaitduson import *
 from pygame.locals import *
 import sayve
 import stagecrea
+#Voici mon premier projet avec lequel j'ai découvert python et la programation. L'ensemble est donc très sale mais le jeu fonctionne à peut près.
 red = (200,0,0)
 green = (0,200,0)
 blue = (0,0,200)
@@ -36,7 +37,6 @@ def menuprincipal():
     fond = pygame.image.load("sprite/menu.png").convert_alpha()
     wdw.blit(fond, (0,0))
     pygame.display.set_caption("Find The Way")
-    
     
     player = perso4
     position = player.get_rect()
